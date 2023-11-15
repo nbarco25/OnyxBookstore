@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 @Entity /*Esto quiere decir que cada atributo será una columna en nuestra db*/
 @Table(name = "Book")
 
-public class BookModel {
+public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
