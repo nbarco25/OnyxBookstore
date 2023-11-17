@@ -1,6 +1,7 @@
 package com.onyx.bookstore.models;
 
 import jakarta.persistence.*;
+import org.antlr.v4.runtime.misc.NotNull;
 
 @Entity /*Esto quiere decir que cada atributo será una columna en nuestra db*/
 @Table(name = "Book")
